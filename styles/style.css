@@ -3,3 +3,17 @@
 .manrope{
     font-family: "Manrope", sans-serif;
 }
+
+button{
+    transition: 0.5s;
+}
+
+.card{
+    transition: 0.5s;
+}
+
+button:hover,
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
